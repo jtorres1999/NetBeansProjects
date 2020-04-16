@@ -23,7 +23,7 @@ public class Memoria_Estatica {
      //Utilizando el metodo SET para modificar
      cadenas.set(1, "La que modifique");
     
-    //Eliminar frases
+    //Eliminar frases o cantantes
     cadenas.remove(0);
         
      
