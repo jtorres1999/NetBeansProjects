@@ -7,7 +7,7 @@ public class Pilas {
 
     public static void main(String[] args) {
         //Pila es una coleccion ordenada de elementos a los cuales solo se puede acceder por un unico lugar
-     int opcion=0, elemento, tamaño;
+     int opcion=0, elemento, tamaño, cosa;
         try {
             tamaño=Integer.parseInt(JOptionPane.showInputDialog
         (null, "De que tamaño es tu pila",JOptionPane.INFORMATION_MESSAGE));
