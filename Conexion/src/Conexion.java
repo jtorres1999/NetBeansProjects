@@ -12,7 +12,7 @@ public class Conexion {
         ResultSet sr;
         try {
             st=cone.con.createStatement();
-            sr=st.executeQuery("select * from usuario");
+            sr=st.executeQuery("select * from fabricante");
             while (sr.next()) {                
                 System.out.println(sr.getString("Nombre")+" "+sr.getInt("id")+" "+sr.getString("Profesion"));
             }
