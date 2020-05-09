@@ -12,9 +12,9 @@ public class Conexion {
         ResultSet sr;
         try {
             st=cone.con.createStatement();
-            sr=st.executeQuery("select * from fabricante");
+            sr=st.executeQuery("select * from persona");
             while (sr.next()) {                
-                System.out.println(sr.getString("Nombre")+" "+sr.getInt("id")+" "+sr.getString("Profesion"));
+                System.out.println(sr.getInt("id")+" "+sr.getString("Dni")+" "+sr.getString("Nombre"));
             }
             cone.con.close();
         } catch (Exception e) {
